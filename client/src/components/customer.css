@@ -1,0 +1,78 @@
+table thead {
+    background-color: #34c5f1;
+    color: #fff;
+    font-weight: 100;
+}
+table{
+    border: 1px solid #ccc;
+}
+
+.home{
+    float : right;
+    margin-right: 0px;
+}
+.home button{
+    background-color: #34c5f1; 
+    font-size: 14px;
+}
+.home button span{
+    margin-right: 10px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border: none;
+    font-size : 14px;
+    font-weight : 400;
+}
+.table td, .table th {
+    padding: .65rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size : 14px;
+    font-weight : 400;
+}
+td button {
+    background: transparent;
+    border: none;
+}
+td button .fa{
+    color: #2b3031fa;
+}
+.modal-content{
+    background-color: #34c5f1;
+}
+label{
+    color : #fff;
+    font-size:12px;
+    margin-bottom:1px;
+}
+.data-input-field {
+    margin: 10px;
+}
+.modal-title{
+    color : #fff;
+}
+.submit{
+    background-color: #fff;
+    color : #34c5f1;
+    text-transform: uppercase;
+    border: none;
+    padding : 5px 50px;
+    border-radius: 3px;
+}
+.cancel{
+    background-color: #34c5f1;
+    color : #fff;
+    text-transform: uppercase;
+    border: none;
+    padding : 5px 50px;
+    border-radius: 3px;
+}
+.close{
+    color: #fff;
+    right: 4px;
+    position: absolute;
+    top: 1px;
+}
+
