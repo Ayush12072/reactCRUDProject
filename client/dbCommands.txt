@@ -1,0 +1,18 @@
+
+CREATE DATABASE react_assignment;
+
+CREATE TABLE customer ( 
+    `id` INT(10) NOT NULL AUTO_INCREMENT , 
+    `name` VARCHAR(50) NOT NULL , 
+    `city` VARCHAR(100) NOT NULL , 
+    `dob` DATE NOT NULL , 
+    `mobile` VARCHAR(10) NOT NULL , 
+    PRIMARY KEY (`id`));
+
+INSERT INTO customer (name, city, dob, mobile)
+VALUES ('Jack Sharma', 'Delhi', '1989-01-01','9812121222'),
+('Michel', 'Gurgaon', '1990-01-11','9812121234'),
+('Anil Gupta', 'Mumbai', '1990-02-14','9812121456'),
+('Joseph', 'Bengalore', '1993-03-23','9812120948'),
+('Kanishk G.', 'Kolkata', '1994-04-01','9812112455'),
+('John Doe', 'Madras', '1994-04-03','9812109090');
